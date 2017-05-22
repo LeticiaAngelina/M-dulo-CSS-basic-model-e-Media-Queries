@@ -1,0 +1,48 @@
+body{
+	background-color:#c0c0c0;/*Cor da página*/
+}
+h1,h2{
+	font-family: Comic Sans MS;/*fonte das letras*/
+}
+div{
+	margin:30px 30px 50px 30px;
+	border-top: 5px none;/*Estilo da borda do topo*/
+	border-right: 5px none;/*Estilo da borda direita*/
+	border-bottom: 5px none;/*Estilo da borda inferior*/
+	border-left: 5px none;/*Estilo da borda esquerda*/
+	width:700px;/*Largura da borda*/
+	height:200px;/*Altura da borda*/
+	padding: 20px 5px 20px 5px;/*Espessura do enchimento da box- espessura da área que separa a borda do conteúdo*/
+	background-color: #a8caf0;/*cor da box*/
+}
+#Box2{
+	margin:30px 30px 50px 30px;/*Espessura das margens de um box*/
+	border-top: 5px double #000;/*Estilo da borda do topo*/
+	border-right: 5px double #000;/*Estilo da borda direita*/
+	border-bottom: 5px double #000;/*Estilo da borda inferior*/
+	border-left: 5px double #000;/*Estilo da borda esquerda*/
+	width:600px;/*Largura da borda*/
+	height:20px;/*Altura da borda*/
+	padding: 5px 5px 5px 5px;/*Espessura do enchimento da box- espessura da área que separa a borda do conteúdo*/
+	background-color: #3d9dcd;/*cor da box*/
+}
+#Box3{
+	margin: 30px 30px 30px 30px;/*Espessura das margens de um box*/
+	border-top: 5px dashed #000;/*Estilo da borda do topo*/
+	border-right:5px dashed #000;/*Estilo da borda direita*/
+	border-bottom: 5px dashed #000;/*Estilo da borda inferior*/
+	border-left: 5px dashed #000;/*Estilo da borda esquerda*/
+	width:600px;/*Largura da borda*/
+	height:20px;/*Altura da borda*/
+	padding: 5px 5px 5px 5px;/*Espessura do enchimento da box- espessura da área que separa a borda do conteúdo*/
+	background-color: #089bd0;/*cor da box*/
+}
+#SButtonAtivo{
+   	font-weight: bold;/*Letra em negrito*/
+   	font-size: 13px;/*alterar o tamanho de uma letra*/
+	border-color:#000 ;/*cor da borda*/
+   	font-family:monospace;/*estilo da letra*/
+   	height: 28px;/*altura do botão*/
+	width: 120px;/*largura do botão*/
+   	background-color: #4682B4;/*cor do botão*/
+}

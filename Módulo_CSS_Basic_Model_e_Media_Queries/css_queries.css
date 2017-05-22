@@ -1,0 +1,78 @@
+body {
+	padding: 15px; 
+	background-color:#c0c0c0;/*Cor da página*/
+	font-family: Comic Sans MS;
+}.
+
+.caixa {
+	border: solid 1px #666;	
+	padding: 5px 10px;
+	margin: 40px;
+}
+
+.area-visivel span {
+	color: #000;/*Cor da letra*/
+	display: none;/*Só aparece um valor */
+}
+
+/* max-width largura máxima */
+@media screen and (max-width: 600px) {
+	.um {
+		background: #F9C;/*cor rosa*/
+		border-top: 2px outset #000;/*Borda do topo*/
+		border-right: 2px outset #000;/*Borda Direita*/
+		border-bottom: 2px outset #000;/*Borda inferior*/
+		border-left: 2px outset #000;/*Borda esquerda*/
+	}
+	span.lt600 {
+		display: inline-block;/*Na linha*/
+	}
+}
+
+/* min-width largura mínima */
+@media screen and (min-width: 900px) {
+	.dois {
+		background: #F90;/*Cor laranja*/
+		border-top: 2px outset #000;/*Borda do topo*/
+		border-right: 2px outset #000;/*Borda Direita*/
+		border-bottom: 2px outset #000;/*Borda inferior*/
+		border-left: 2px outset #000;/*Borda esquerda*/
+	}
+	span.gt900 {
+		display: inline-block;/*Na linha*/
+	}
+}
+
+/* min-width largura mínima & max-width largura máxima */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	.tres {
+		background: #9CF;/*cor azul*/
+		border-top: 2px outset #000;/*Borda do topo*/
+		border-right: 2px outset #000;/*Borda Direita*/
+		border-bottom: 2px outset #000;/*Borda inferior*/
+		border-left: 2px outset #000;/*Borda esquerda*/
+	}
+	span.bt600-900 {
+		display: inline-block;/*Na linha*/
+	}
+}
+
+/* max device width-largura máxima da área de rederização */
+@media screen and (max-device-width: 480px) {
+	.iphone {
+		background: #ccc;
+		border-top: 2px outset #000;/*Borda do topo*/
+		border-right: 2px outset #000;/*Borda Direita*/
+		border-bottom: 2px outset #000;/*Borda inferior*/
+		border-left: 2px outset #000;/*Borda esquerda*/
+	}
+}
+#SButtonAtivo{
+   	font-weight: bold;/*Letra em negrito*/
+   	font-size: 13px;/*alterar o tamanho de uma letra*/
+	border-color:#000 ;/*cor da borda*/
+   	font-family:monospace;/*estilo da letra*/
+   	height: 28px;/*altura do botão*/
+	width: 120px;/*largura do botão*/
+   	background-color: #4682B4;/*cor do botão*/
+}

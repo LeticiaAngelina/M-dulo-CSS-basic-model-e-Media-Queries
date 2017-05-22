@@ -1,0 +1,48 @@
+body{
+	background-color:#c0c0c0;/*Cor da página*/
+}
+h1,h2{
+	font-family: Comic Sans MS;/*fonte das letras*/
+}
+div{
+	border-top: 5px none;/*Estilo da borda do topo*/
+	border-right: 5px none;/*Estilo da borda direita*/
+	border-bottom: 5px none;/*Estilo da borda inferior*/
+	border-left: 5px none;/*Estilo da borda esquerda*/
+	width:700px;/*Largura da borda*/
+	height:150px;/*Altura da borda*/
+	padding: 25px 1px 25px 1px;/*Espessura do enchimento da box- espessura da área que separa a borda do conteúdo*/
+	background-color: #a8caf0;/*cor da box*/
+	font-family: Comic Sans MS;
+}
+p{
+	margin:30px 30px 50px 30px;/*Espessura das margens de um box*/
+	border-top: 5px double #000;/*Estilo da borda do topo*/
+	border-right: 5px double #000;/*Estilo da borda direita*/
+	border-bottom: 5px double #000;/*Estilo da borda inferior*/
+	border-left: 5px double #000;/*Estilo da borda esquerda*/
+	width:600px;/*Largura da borda*/
+	height:20px;/*Altura da borda*/
+	padding: 1px 1px 1px 1px;/*Espessura do enchimento da box- espessura da área que separa a borda do conteúdo*/
+	background-color: #3d9dcd;/*cor da box*/
+	font-family: Comic Sans MS;/*Fonte da letra*/
+}
+#SButtonAtivo{
+	margin:30px 30px 10px 30px;
+   	font-weight: bold;/*Letra em negrito*/
+   	font-size: 13px;/*alterar o tamanho de uma letra*/
+	border-color:#000 ;/*cor da borda*/
+   	font-family:monospace;/*estilo da letra*/
+   	height: 28px;/*altura do botão*/
+	width: 125px;/*largura do botão*/
+   	background-color: #4682B4;/*cor do botão*/
+}
+#SButtonAtivo2{
+	font-weight: bold;/*Letra em negrito*/
+   	font-size: 13px;/*alterar o tamanho de uma letra*/
+	border-color:#000 ;/*cor da borda*/
+   	font-family:monospace;/*estilo da letra*/
+   	height: 28px;/*altura do botão*/
+	width: 125px;/*largura do botão*/
+   	background-color: #4682B4;/*cor do botão*/
+}
